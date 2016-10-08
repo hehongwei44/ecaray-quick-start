@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>脚手架示例代码</title>
+
+    <link href="./style/chrome.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+
+<!--左侧导航栏-->
+<aside>
+    <h1>Chrome</h1>
+    <nav>
+        <ul>
+            <li><a href="./">History</a></li>
+            <li><a href="./extensions">Extensions</a></li>
+            <li><a href="./settings">Settings</a></li>
+        </ul>
+    </nav>
+</aside>
+<!--右侧主体栏-->
+<section id="content"></section>
+
+<!--
+<script type="text/javascript" src="./script/lib/jquery/jquery-1.12.4.js"></script>
+<script type="text/javascript" src="./script/lib/knockout/knockout-3.4.0.debug.js"></script>-->
+<script type="text/javascript" src="./script/lib/requirejs/require.js" data-main="./app/main"></script>
+</body>
+</html>
