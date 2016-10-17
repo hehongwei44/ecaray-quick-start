@@ -5,10 +5,13 @@ requirejs.config({
         'knockout': '../script/lib/knockout/knockout-3.4.0.debug',
         'page': '../script/lib/router/page',
         'router': '../script/util/router',
-        'http': '../script/util/http'
+        'http': '../script/util/http',
+        'text':"../script/lib/requirejs/text",
+        'viewModel': "./viewmodels",
+        "view":"./views"
     }
 });
 
-define(['router'], function () {
+require(['router'], function () {
     console.log("APP Start");
 });
